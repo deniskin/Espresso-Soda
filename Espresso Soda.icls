@@ -1,7 +1,9 @@
 <scheme name="Espresso Soda" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <colors>
     <option name="CARET_ROW_COLOR" value="e9e9e9" />
     <option name="GUTTER_BACKGROUND" value="f9f9f9" />
@@ -442,6 +444,20 @@
     <option name="IGNORE.UNUSED_ENTRY" baseAttributes="DEFAULT_DOC_COMMENT" />
     <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
+    <option name="JADE_FILE_PATH">
+      <value>
+        <option name="FOREGROUND" value="bc670f" />
+        <option name="BACKGROUND" value="fef9ea" />
+      </value>
+    </option>
+    <option name="JADE_FILTER_NAME">
+      <value />
+    </option>
+    <option name="JADE_STATEMENTS">
+      <value>
+        <option name="FOREGROUND" value="61862f" />
+      </value>
+    </option>
     <option name="JS.BADCHARACTER">
       <value>
         <option name="FONT_TYPE" value="3" />
@@ -468,7 +484,7 @@
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="61862f" />
+        <option name="FOREGROUND" value="4c8fc7" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -497,7 +513,9 @@
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="4c8fc7" />
+      </value>
     </option>
     <option name="JS.NUMBER">
       <value>
@@ -547,6 +565,36 @@
       <value>
         <option name="BACKGROUND" value="b0c5e3" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN.AUTO_LINK">
+      <value>
+        <option name="FOREGROUND" value="bc670f" />
+        <option name="BACKGROUND" value="fef9ea" />
+      </value>
+    </option>
+    <option name="MARKDOWN.BLOCK_QUOTE">
+      <value>
+        <option name="FOREGROUND" value="adadad" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MARKDOWN.BOLD">
+      <value>
+        <option name="FOREGROUND" value="bc670f" />
+        <option name="BACKGROUND" value="fef9ea" />
+      </value>
+    </option>
+    <option name="MARKDOWN.CODE">
+      <value>
+        <option name="FOREGROUND" value="adadad" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MARKDOWN.MAIL_LINK">
+      <value>
+        <option name="FOREGROUND" value="bc670f" />
+        <option name="BACKGROUND" value="fef9ea" />
       </value>
     </option>
     <option name="PHP_COMMENT">
@@ -703,24 +751,31 @@
     </option>
     <option name="YAML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="808080" />
+        <option name="FOREGROUND" value="bc670f" />
+        <option name="BACKGROUND" value="fffdf7" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="YAML_SCALAR_DSTRING">
       <value>
-        <option name="FOREGROUND" value="ce7b00" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="bc670f" />
+        <option name="BACKGROUND" value="fef9ea" />
       </value>
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="e6" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="61862f" />
       </value>
     </option>
     <option name="YAML_SCALAR_STRING">
       <value>
-        <option name="FOREGROUND" value="ce7b00" />
+        <option name="FOREGROUND" value="bc670f" />
+        <option name="BACKGROUND" value="fef9ea" />
+      </value>
+    </option>
+    <option name="YAML_SIGN">
+      <value>
+        <option name="FOREGROUND" value="626fc9" />
       </value>
     </option>
   </attributes>
